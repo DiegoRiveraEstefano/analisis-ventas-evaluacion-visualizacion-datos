@@ -1,8 +1,8 @@
-# data visualization template
+# data visualization project for sells of products
 
 ## Description
 
-This is a template for data visualization projects. It includes a virtual environment, a list of dependencies, and a main file.
+this projects is a data visualization project. for the sells of products, with the goal of obtaining valuable information for the analysis of market.
 
 
 ### Requirements
@@ -10,6 +10,15 @@ This is a template for data visualization projects. It includes a virtual enviro
 - Python 3.12
 - pip
 - virtualenv
+
+### dependencies
+- fastexcel
+- jupyter
+- matplotlib
+- numpy
+- pandas
+- polars
+- pyarrow
 
 ### Project structure
 - `data/`: The directory for storing data files.
@@ -28,9 +37,6 @@ This is a template for data visualization projects. It includes a virtual enviro
 
 ### normative references
 - [Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
-- [Python Packaging User Guide](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/)
-- [Python Packaging User Guide](https://packaging.python.org/en/latest/guides/creating-and-discovering-plugins/)
-- [Python Packaging User Guide](https://packaging.python.org/en/latest/guides/making-a-pypi-friendly-readme/)
 
 ## How to use
 
@@ -42,8 +48,14 @@ python -m venv .venv
 
 ### 2. Activate the virtual environment
 
+#### 2.1 Linux
 ```bash
 source .venv/bin/activate
+```
+
+#### 2.2 Windows
+```bash
+.venv\Scripts\activate  # Windows PowerShell
 ```
 
 ### 3. Install dependencies
@@ -111,19 +123,8 @@ pytest --cov=src --cov-report=html
 The test coverage report will be generated in the `htmlcov` directory.
 
 
-## documentation
-The documentation will be generated using Sphinx.
-
-To generate the documentation, use the following command:
-
-```bash
-sphinx-build -b html docs/source docs/build
-```
-
-The documentation will be generated in the `docs/build` directory.
-
 ## License
 This project is licensed under the MIT License.
 
 ## Contact
-If you have any questions or suggestions, please contact me at [my email](mailto:your-email@example.com).
+If you have any questions or suggestions, please contact me at [my email](diego.rivera.estefano@gmail.com).
