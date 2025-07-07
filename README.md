@@ -1,7 +1,3 @@
-Here's an improved version of your `README.md` file, focusing on clarity, better organization, and a more professional tone:
-
------
-
 # Product Sales Data Visualization Project
 
 ## Description
