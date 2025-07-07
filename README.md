@@ -1,130 +1,149 @@
-# data visualization project for sells of products
+Here's an improved version of your `README.md` file, focusing on clarity, better organization, and a more professional tone:
+
+-----
+
+# Product Sales Data Visualization Project
 
 ## Description
 
-this projects is a data visualization project. for the sells of products, with the goal of obtaining valuable information for the analysis of market.
+This project focuses on **data visualization for product sales**, aiming to extract valuable insights for market analysis. By transforming raw sales data into interactive and informative visualizations, we can identify trends, patterns, and anomalies to support strategic business decisions.
 
+-----
 
-### Requirements
+## Features
 
-- Python 3.12
-- pip
-- virtualenv
+  * **Interactive Visualizations:** Generate dynamic charts and graphs to explore sales data.
+  * **Market Trend Analysis:** Identify key market trends and consumer behavior.
+  * **Data-driven Insights:** Provide actionable insights for business strategy.
 
-### dependencies
-- fastexcel
-- jupyter
-- matplotlib
-- numpy
-- pandas
-- polars
-- pyarrow
+-----
 
-### Project structure
-- `data/`: The directory for storing data files.
-- `src/`: The directory for storing source code files.
-- `notebooks/`: The directory for storing Jupyter Notebook files.
-- `tests/`: The directory for storing test files.
-- `reports/`: The directory for storing reports.
-- `.vscode/`: The directory for storing Visual Studio Code settings.
-- `main.py`: The main file of the project.
-- `requirements.txt`: The list of dependencies for the project.
-- `pyproject.toml`: The configuration file for the project.
-- `README.md`: This file.
-- `.gitignore`: The list of files and directories to be ignored by Git.
-- `.python-version`: The version of Python to be used by the project.
+## Requirements
 
+To run this project, you'll need:
 
-### normative references
-- [Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+  * **Python 3.12**
+  * `pip` (Python package installer)
+  * `virtualenv` (for isolated development environments)
 
-## How to use
+-----
 
-### 1. Create a virtual environment
+## Dependencies
+
+The project relies on the following Python libraries:
+
+  * `fastexcel`: For fast Excel file processing.
+  * `jupyter`: For interactive data exploration and notebook development.
+  * `matplotlib`: A foundational library for creating static, animated, and interactive visualizations.
+  * `numpy`: For numerical operations and array manipulation.
+  * `pandas`: For data manipulation and analysis.
+  * `polars`: A DataFrame library for high-performance data operations.
+  * `pyarrow`: For efficient data interchange, especially with Parquet files.
+
+-----
+
+## Project Structure
+
+```
+.
+├── data/                       # Directory for storing raw and processed data files.
+├── src/                        # Contains all source code for the project.
+├── notebooks/                  # Jupyter notebooks for data exploration and visualization experiments.
+├── tests/                      # Unit and integration tests.
+├── reports/                    # Generated reports, e.g., analysis summaries, visualizations.
+├── .vscode/                    # Visual Studio Code specific settings.
+├── main.py                     # The main entry point for running the project.
+├── requirements.txt            # List of Python dependencies.
+├── pyproject.toml              # Project configuration file (e.g., for `ruff`, `mypy`).
+├── README.md                   # This README file.
+├── .gitignore                  # Specifies files and directories to be ignored by Git.
+└── .python-version             # Specifies the Python version to be used (e.g., by `pyenv`).
+```
+
+-----
+
+## Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### 1\. Create a Virtual Environment
+
+It's highly recommended to use a virtual environment to manage project dependencies.
 
 ```bash
 python -m venv .venv
 ```
 
-### 2. Activate the virtual environment
+### 2\. Activate the Virtual Environment
 
-#### 2.1 Linux
+**Linux/macOS:**
+
 ```bash
 source .venv/bin/activate
 ```
 
-#### 2.2 Windows
+**Windows (PowerShell):**
+
 ```bash
-.venv\Scripts\activate  # Windows PowerShell
+.venv\Scripts\activate
 ```
 
-### 3. Install dependencies
+### 3\. Install Dependencies
+
+Once your virtual environment is active, install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the project
+### 4\. Run the Project
+
+Execute the main application file:
 
 ```bash
 python main.py
 ```
 
+the ouput of the program is in /report/figures/ path.
+
+-----
+
 ## Code Quality
 
-### Code formatting
-To format the code, use the following command:
+This project adheres to strict code quality standards.
+
+### Code Formatting
+
+To automatically format the code, ensuring consistency across the project:
 
 ```bash
-ruff .
+ruff check
 ```
 
-### Code linting
-To lint the code, use the following command:
+### Code Linting
+
+To identify and report stylistic errors, programming errors, and suspicious constructs:
 
 ```bash
 mypy src
 ```
 
-### Code style
-To check the code style, use the following command:
+-----
 
-```bash
-ruff .
-```
+## Normative References
 
-## Testing
+  * [Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
-### Unit tests
-To run the unit tests, use the following command:
-
-```bash
-pytest tests/unit
-```
-
-### Integration tests
-To run the integration tests, use the following command:
-
-```bash
-pytest tests/integration
-```
-
-The integration tests will be executed and the results will be displayed.
-
-The unit tests will be executed and the results will be displayed.
-
-### Test coverage
-To generate a test coverage report, use the following command:
-
-```bash
-pytest --cov=src --cov-report=html
-```
-
-The test coverage report will be generated in the `htmlcov` directory.
-
+-----
 
 ## License
-This project is licensed under the MIT License.
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+
+-----
 
 ## Contact
-If you have any questions or suggestions, please contact me at [my email](diego.rivera.estefano@gmail.com).
+
+For any questions, suggestions, or feedback, please feel free to reach out to me at [diego.rivera.estefano@gmail.com](mailto:diego.rivera.estefano@gmail.com).
+
+-----
